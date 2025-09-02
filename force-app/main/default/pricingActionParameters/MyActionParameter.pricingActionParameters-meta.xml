@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PricingActionParameters xmlns="http://soap.sforce.com/2006/04/metadata">
+    <parameterName>DiscountRate</parameterName>
+    <parameterType>Percentage</parameterType>
+    <defaultValue>10</defaultValue>
+    <isRequired>true</isRequired>
+</PricingActionParameters>
