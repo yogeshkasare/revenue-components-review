@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PricingRecipe xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recipeName>StandardDiscount</recipeName>
+    <description>Applies a standard 10% discount</description>
+    <steps>
+        <step>
+            <action>ApplyDiscount</action>
+            <parameter>DiscountRate</parameter>
+            <value>10</value>
+        </step>
+    </steps>
+</PricingRecipe>
